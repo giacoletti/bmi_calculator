@@ -8,9 +8,18 @@
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <input type="text" name="fullName">
-    <input type="text" name="height">
-    <input type="text" name="weight">
+    <div>
+        <label for="fullName" id="fullNameLabel">Full Name:</label>
+        <input type="text" name="fullName" id="fullName">
+    </div>
+    <div>
+        <label for="height" id="heightLabel">Height:</label>
+        <input type="text" name="height" id="height">
+    </div>
+    <div>
+        <label for="weight" id="weightLabel">Weight:</label>
+        <input type="text" name="weight" id="weight">
+    </div>
     <input type="submit" value="Calculate" id="submit-button">
     <div id="response-message"></div>
     <script src="./assets/code.js"></script>
